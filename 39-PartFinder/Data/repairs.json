@@ -1,0 +1,25 @@
+[
+    {
+      "id": 1,
+      "brand": "Amana",
+      "type":"Cooking",
+      "boardPrice": 429.47,
+      "coolingFanPrice": 413.20,
+      "description":"We are committed to providing the friendliest, most reliable, same-day service ",
+      "days": "Mon-Fri",
+      "area": "orlando",
+      "image": "cooktop"
+   },
+   {
+    "id": 2,
+    "brand": "Bosch",
+    "type":"Cooking",
+    "boardPrice": 429.47,
+    "coolingFanPrice": 413.20,
+    "description":"We are committed to providing the friendliest, most reliable, same-day service ",
+    "days": "Mon-Fri",
+    "area": "orlando",
+    "image": "cooktop"
+  }
+   
+  ]

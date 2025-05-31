@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.newspaper {
+    padding: 5rem;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+}

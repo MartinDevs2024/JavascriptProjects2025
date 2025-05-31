@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Orbitron', sans-serif;
+  background: linear-gradient(135deg, #000428, #004e92);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.weather-glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  padding: 30px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.location-timezone {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.icon-container img {
+  width: 80px;
+  height: 80px;
+  margin-top: 10px;
+  animation: glow 1.5s infinite ease-in-out alternate;
+}
+
+.temperature-degree {
+  font-size: 60px;
+  margin: 10px 0;
+}
+
+.temperature-description {
+  font-size: 18px;
+  color: #aefaff;
+  letter-spacing: 1px;
+}
+
+@keyframes glow {
+  from {
+    filter: drop-shadow(0 0 5px #00f2ff);
+  }
+  to {
+    filter: drop-shadow(0 0 20px #00f2ff);
+  }
+}
+
+canvas#background-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}

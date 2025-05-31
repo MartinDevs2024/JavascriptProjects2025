@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+    min-height: 100vh;
+}
+
+.success, .error{
+    color: white;
+    padding:5px;
+    margin: 5px 0 15px 0;
+}
+.success{
+    background: green;
+}
+.error{
+    background: red;
+}
+/*=================
+Clock-Area
+==================*/
+#tellTime{
+padding:100px 0 100px;
+background-image:url('../images/bg-image.jpeg');
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+}
+#tellTime .box{
+color:#f2f2f2;
+}
+#tellTime .box h2{
+text-transform: uppercase;
+font-weight: bold;
+}
+.widget{
+width:80%;
+margin:2em;
+}
+.widget p{
+display:inline-block;
+line-height: 1em;
+}
+.time{
+font-family:Oswald,Arial;
+text-align:center;
+font-size:1.5em;
+margin-bottom:0.3125rem;
+background:rgba(0,0,0,0.5);
+padding:20px;
+width:100%;
+}
+.clock{
+font-family:Oswald,Arial;
+width:100%;
+padding:20px;
+font-size:4em;
+text-align: center;
+background-color:rgba(0,0,0,0.5); 
+}
+.clock .seconds-box{
+display:inline-block;
+}
+.clock .seconds,
+.clock .ampm{
+font-size:2rem;
+display:block;
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+        <title>FlyinText</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="styles.css/style.css" />
+	 </head>
+<body>
+     <section id="showcase">
+         <div class="container">
+		      <ul class="fly-in-text hidden">
+                  <li>W</li>
+                  <li>E</li>
+                  <li>L</li>
+                  <li>C</li>
+                  <li>O</li>
+                  <li>M</li>
+                  <li>E</li>
+             </ul>
+		 <div class="content">
+              <h2>UxDesign</h2>
+         </div>
+         <br><br>
+         <button id="modalBtn" class="button">More Info</button>
+         
+         <div id="simpleModal" class="modal">
+              <div class="modal-content">
+                   <span class="closeBtn">&times;</span>
+                   <form class="form-group">
+                       <p>Your Name</p>
+                        <input type="text"/>
+                
+
+                   </form>
+                   <p>Hello.. I am a modal</p>
+              </div>
+     
+         </div>
+        </div>   
+    </section>
+    <section id="para">
+        <div class="container text-center">
+            <h1>My Information</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem doloremque,
+                labore veritatis rerum ut cum nostrum mollitia sapiente molestias, 
+                vel nobis ex obcaecati quo dolor. Eveniet tempora adipisci obcaecati quo.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis rem ullam, 
+                necessitatibus natus architecto quae obcaecati soluta accusamus voluptates nam 
+                minima sit, libero id at, corrupti explicabo ipsam deleniti qui.</p>    
+            <a href="#" class="btn btn-danger">For More Info</a>    
+        </div>
+
+    </section>
+    <section id="Elements">
+        <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h2>Lets Play With JavaScript</h2>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 box">
+                                <a id="left" class="btn btn-primary">Left</a>                    
+                                <a id="right" class="btn btn-primary">Right</a>
+                                <a id="bigger" class="btn btn-primary">Bigger</span>
+                                <a id="smaller" class="btn btn-primary">Smaller</a>
+                                <a id="stack" class="btn btn-primary">stack</a>
+                                <a id="flip" class="btn btn-primary">flip</a>
+                                <div id="photos">
+                                    <img class="photo img-responsive" src="images/1.png" alt=""/>
+                                    <img class="photo img-responsive" src="images/2.png" alt=""/>
+                                    <img class="photo img-responsive" src="images/3.jpg" alt=""/>
+                                    <img class="photo img-responsive" src="images/4.jpg" alt=""/>
+                                </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="container widget">
+                                <div class="time">
+                                    <p id="week" class="week"></p>   
+                                    <p id="month" class="month"></p>
+                                    <p>-</p>
+                                    <p id="day" class="day"></p>
+                                    <p id="year" class="year"></p>
+                                </div>
+                                <div class="clock">
+                                    <p id="hour" class="hour"></p>
+                                    <p>:</p>
+                                    <p id="minutes" class="minutes"></p>
+                                    <div class="seconds-box">
+                                        <p id="ampm" class="ampm"></p>
+                                        <p id="seconds" class="seconds"></p>
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>
+                    </div><!--row-->        
+        </div><!--container-->           
+    </section>
+    <section id="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 container-gallery">
+                    <div id="ti"><span id="hand">-</span>Canon</div>
+                    <img id="pho"src="images/1.png" alt="" width="300px">
+                    <div id="foo">Image Ready</div>
+                </div>  
+                <div class="col-md-6 col-sm-6">
+                    <h2>Welcome</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt iusto 
+                        dolor magnam fugit quod dolorum quis pariatur sequi. Deleniti aut vero illum 
+                        quas aliquam laboriosam velit dolorum alias, exercitationem temporibus dolores 
+                        reprehenderit perferendis earum sint aspernatur veniam omnis. Architecto, 
+                        veritatis.</p>
+                     <a href="#" class="btn btn-danger">Travel Here</a>
+                </div>
+            </div>   
+        </div>
+     </section>
+
+
+
+
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <script src="js/main.js"></script> 
+   <script src="js/elements.js"></script> 
+   <script src="js/tellTime.js"></script> 
+   <script src="js/image_hide.js"></script>              
+   <script>
+   $(function(){
+        setTimeout(function(){
+           $('.fly-in-text').removeClass('hidden')
+        },500);
+   });
+   </script>
+</body>
+</html>
